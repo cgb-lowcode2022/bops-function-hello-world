@@ -1,0 +1,29 @@
+{
+  "functionName": "bops-function-hello-world",
+  "description": "Logs 'Hello <name>!' to the console when executed",
+  "author": "mapikit",
+  "version": "1.0.0",
+  "inputParameters": [
+    {
+      "name": "nameToGreet",
+      "type": "string",
+      "required": false
+    }
+  ],
+  "outputBranches": [
+    {
+      "branchName": "default",
+      "description": "the default path of the function"
+    }
+  ],
+  "outputData": [
+    {
+      "name": "customGreetings",
+      "type": "boolean",
+      "branch": "default"
+    }
+  ],
+  "entrypoint": "/dist/index.js",
+  "mainFunction": "main",
+  "customTypes": []
+}

@@ -1,0 +1,31 @@
+{
+  "name": "bops-function-hello-world",
+  "version": "1.0.0",
+  "description": "A boilerplate for writing BOps-functions for Meta-System",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mapikit/bops-function-hello-world.git"
+  },
+  "keywords": [
+    "meta-function",
+    "meta-system",
+    "module"
+  ],
+  "author": "mapikit",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/mapikit/bops-function-hello-world/issues"
+  },
+  "homepage": "https://github.com/mapikit/bops-function-hello-world#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^14.14.33",
+    "meta-function-helper": "0.0.7",
+    "typescript": "^4.2.3"
+  }
+}
