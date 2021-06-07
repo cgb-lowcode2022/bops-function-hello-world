@@ -3,27 +3,13 @@
   "description": "Logs 'Hello <name>!' to the console when executed",
   "author": "mapikit",
   "version": "1.0.0",
-  "inputParameters": [
-    {
-      "name": "nameToGreet",
-      "type": "string",
-      "required": false
-    }
-  ],
-  "outputBranches": [
-    {
-      "branchName": "default",
-      "description": "the default path of the function"
-    }
-  ],
-  "outputData": [
-    {
-      "name": "customGreetings",
-      "type": "boolean",
-      "branch": "default"
-    }
-  ],
+  "inputParameters": {
+    "nameToGreet": { "type": "string", "required": false }
+  },
+  "outputData": {
+    "customGreetings": { "type": "boolean", "required": true },
+    "greetingsMade": { "type": "string", "required": true }
+  },
   "entrypoint": "/dist/index.js",
-  "mainFunction": "main",
-  "customTypes": []
+  "mainFunction": "main"
 }
