@@ -2,11 +2,11 @@
   "functionName": "bops-function-hello-world",
   "description": "Logs 'Hello <name>!' to the console when executed",
   "author": "mapikit",
-  "version": "1.1.1",
-  "inputParameters": {
+  "version": "1.1.2",
+  "input": {
     "nameToGreet": { "type": "string", "required": false }
   },
-  "outputData": {
+  "output": {
     "customGreetings": { "type": "boolean", "required": true },
     "greetingsMade": { "type": "string", "required": true }
   },
